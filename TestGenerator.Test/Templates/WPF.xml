@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <question text="К какому уровню многоуровневой архитектуры нужно отнести код, выполняющий создание XML-файла для хранения сущностных объектов?">
+    <answer correct="true">Business Logic Layer</answer>
+    <answer correct="false">Presentation Layer</answer>
+    <answer correct="false">Data Access Layer</answer>
+    <answer correct="false">Скрипты базы данных</answer>
+  </question>
+  <question text="В интернет-магазине при оформлении заказа нужно учесть сезонную скидку. На каком уровне многоуровневой архитектуры должен размещаться код, который это делает?">
+    <answer correct="true">Business Logic Layer</answer>
+    <answer correct="false">Presentation Layer</answer>
+    <answer correct="false">Data Access Layer</answer>
+    <answer correct="false">Скрипты базы данных</answer>
+  </question>
+  <question text="Используется многоуровневая архитектура. Что относится к слою бизнес-логики?">
+    <answer correct="true">Сущностные классы</answer>
+    <answer correct="false">Все перечисленное относится</answer>
+    <answer correct="false">Ничего из перечисленного не относится</answer>
+    <answer correct="false">Компоненты доступа к данным</answer>
+    <answer correct="false">Пользовательские элементы управления</answer>
+  </question>
+  <question text="Что характеризуется уникальным ID (при использовании Domain Driven Design)?">
+    <answer correct="true">Entity</answer>
+    <answer correct="false">Value object</answer>
+    <answer correct="false">Repository</answer>
+    <answer correct="false">Factory</answer>
+  </question>
+  <question text="Можно ли создать приложение WPF, не используя разметку XAML?">
+    <answer correct="true">Можно</answer>
+    <answer correct="false">Нельзя</answer>
+    <answer correct="false">Можно, но это будет консольное приложение</answer>
+    <answer correct="false">Можно, но при этом нельзя использовать стандартные элементы управления</answer>
+  </question>
+  <question text="Что такое BAML?">
+    <answer correct="true">Двоичное представление XAML, внедряемое в сборку в виде ресурса</answer>
+    <answer correct="false">Скомпилированный код обработчиков событий элементов</answer>
+    <answer correct="false">Код на C#, соответствующий XAML-разметке</answer>
+    <answer correct="false">Код на IL, соответствующий XAML-разметке</answer>
+    <answer correct="false">Особая часть XAML-разметки</answer>
+  </question>
+  <question text="Можно ли в XAML-разметке сослаться на пространство имён .NET?">
+    <answer correct="true">Да, для этого используются пространства имён XML</answer>
+    <answer correct="false">Нет</answer>
+    <answer correct="false">Да, но только на пространства имён в текущей сборке</answer>
+    <answer correct="false">Да, для этого всегда используются префикс х</answer>
+  </question>
+  <question text="Как в разметке XAML сослаться на статическое свойство?">
+    <answer correct="true">Использовать расширение разметки StaticExtension</answer>
+    <answer correct="true">Использовать расширение разметки {x:Static}</answer>
+    <answer correct="false">Как обычно - указав "имя класса.имя свойства"</answer>
+    <answer correct="false">Сослаться на статическое свойство нельзя</answer>
+    <answer correct="false">Использовать расширение разметки {x:StaticResource}</answer>
+  </question>
+  <question text="Расположите классы в порядке от предков к потомкам.">
+    <answer correct="true">DispatcherObject, Visual, FrameworkElement</answer>
+    <answer correct="true">DependencyObject, UIElement, Control</answer>
+    <answer correct="true">DispatcherObject, FrameworkElement, Control</answer>
+    <answer correct="true">DependencyObject, Visual, UIElement</answer>
+    <answer correct="false">DependencyObject, DispatcherObject, Visual</answer>
+    <answer correct="false">Visual, DependencyObject, UIElement</answer>
+    <answer correct="false">UIElement, Visual, Control</answer>
+    <answer correct="false">FrameworkElement, UIElement, Control</answer>
+  </question>
+  <question text="Какой класс вводит поддержку свойств зависимостей (СЗ), а какой - поддержку маршрутизируемых событий (МС)?">
+    <answer correct="true">DependencyObject - СЗ; UIElement - МС</answer>
+    <answer correct="true">UIElement - МС; DependencyObject - СЗ;</answer>
+    <answer correct="false">DependencyObject - МС; UIElement - СЗ</answer>
+    <answer correct="false">DependencyObject - СЗ и МС</answer>
+    <answer correct="false">DependencyObject - СЗ; FrameworkElement - МС</answer>
+    <answer correct="false">DispatcherObject - СЗ; UIElement - МС</answer>
+    <answer correct="false">DispatcherObject - СЗ и МС</answer>
+  </question>
+  <question text="Маршрутизируемое событие генерируется в каждом родительском элементе, а в конце - в элементе-источнике.">
+    <answer correct="false">Этот Bubble-стратегия</answer>
+    <answer correct="true">Этот Tunnel-стратегия</answer>
+    <answer correct="false">Этот Direct-стратегия</answer>
+    <answer correct="false">Так работает событие кнопки Click</answer>
+  </question>
+  <question text="При помощи какого свойства КНОПКИ задается центрирование этой кнопки в контейнере?">
+    <answer correct="true">HorizontalAlignment</answer>
+    <answer correct="false">Margin</answer>
+    <answer correct="false">MinWidth</answer>
+    <answer correct="false">Width</answer>
+    <answer correct="false">HorizontalContentAlignment</answer>
+    <answer correct="false">Padding</answer>
+  </question>
+  <question text="Какой из контейнеров компоновки поддерживает координатное размещение?">
+    <answer correct="true">Canvas</answer>
+    <answer correct="false">StackPanel</answer>
+    <answer correct="false">WrapPanel</answer>
+    <answer correct="false">DockPanel</answer>
+    <answer correct="false">Grid</answer>
+  </question>
+  <question text="У какого контейнера компоновки имеется коллекция RowDefinitions?">
+    <answer correct="false">Canvas</answer>
+    <answer correct="false">StackPanel</answer>
+    <answer correct="false">WrapPanel</answer>
+    <answer correct="false">DockPanel</answer>
+    <answer correct="true">Grid</answer>
+  </question>
+  <question text="Что из перечисленного НЕ является элементом управления содержимым?">
+    <answer correct="true">Menu</answer>
+    <answer correct="true">ListBox</answer>
+    <answer correct="true">TextBox</answer>
+    <answer correct="true">StackPanel</answer>
+    <answer correct="true">ToolBar</answer>
+    <answer correct="false">Button</answer>
+    <answer correct="false">Label</answer>
+    <answer correct="false">ToolTip</answer>
+    <answer correct="false">Window</answer>
+    <answer correct="false">Expander</answer>
+    <answer correct="false">GroupBox</answer>
+  </question>
+  <question text="Что из перечисленного НЕ является списковым элементом управления?">
+    <answer correct="true">GroupBox</answer>
+    <answer correct="true">Expander</answer>
+    <answer correct="true">TextBox</answer>
+    <answer correct="true">StackPanel</answer>
+    <answer correct="false">ToolBar</answer>
+    <answer correct="false">Menu</answer>
+    <answer correct="false">ListBox</answer>
+    <answer correct="false">TreeView</answer>
+    <answer correct="false">Selector</answer>
+  </question>
+  <question text="Что можно указать в качестве содержимого у элементов управления содержимым?">
+    <answer correct="true">Любой объект</answer>
+    <answer correct="false">Только объект, для класса которого имеется шаблон данных</answer>
+    <answer correct="false">Только объект, унаследованный от Visual</answer>
+    <answer correct="false">Только объект, унаследованный от FrameworkElement</answer>
+  </question>
+  <question text="Файл f.gif является двоичным ресурсом WPF. Какой URI ему соответствует?">
+    <answer correct="true">pack://application:,,,/f.gif</answer>
+    <answer correct="false">pack://имя приложения:,,,/f.gif</answer>
+    <answer correct="false">pack://application/f.gif</answer>
+    <answer correct="false">images://application:,,,/f.gif</answer>
+  </question>
+  <question text="Какое условие обязательно при выполнении Data Binding?">
+    <answer correct="true">Целевое свойство должно быть свойством зависимостей</answer>
+    <answer correct="true">Целевой объект должен наследоваться от DependencyObject</answer>
+    <answer correct="false">Свойство-источник и целевое свойство должно быть свойствами зависимостей</answer>
+    <answer correct="false">Привязку можно выполнить только к элементу управления WPF</answer>
+    <answer correct="false">Объект-источник должен наследоваться от DependencyObject</answer>
+    <answer correct="false">Привязку можно выполнить только в разметке XAML</answer>
+  </question>
+  <question text="Какая кисть позволяет использовать для заполнения текущий образ некоего элемента управления?">
+    <answer correct="false">SolidColorBrush</answer>
+    <answer correct="false">LinearGradientBrush</answer>
+    <answer correct="false">ImageBrush</answer>
+    <answer correct="true">VisualBrash</answer>
+    <answer correct="false">Ни одна стандартная кисть не позволяет этого</answer>
+  </question>
+</test>

@@ -9,11 +9,5 @@ namespace Models
 
         [XmlElement("answer")]
         public List<Answer> Answers { get; set; }
-
-        public Question(string text, List<Answer> answers)
-        {
-            Text = text;
-            Answers = answers;
-        }
     }
 }

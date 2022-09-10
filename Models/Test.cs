@@ -8,10 +8,5 @@ namespace Models
     {
         [XmlElement("question")]
         public List<Question> Questions { get; set; }
-
-        public Test(List<Question> questions)
-        {
-            Questions = questions;
-        }
     }
 }

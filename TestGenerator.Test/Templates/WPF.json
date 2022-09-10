@@ -1,0 +1,540 @@
+{
+  "questions": [
+    {
+      "text": "К какому уровню многоуровневой архитектуры нужно отнести код, выполняющий создание XML-файла для хранения сущностных объектов?",
+      "answers": [
+        {
+          "text": "Business Logic Layer",
+          "correct": true
+        },
+        {
+          "text": "Presentation Layer",
+          "correct": false
+        },
+        {
+          "text": "Data Access Layer",
+          "correct": false
+        },
+        {
+          "text": "Скрипты базы данных",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "В интернет-магазине при оформлении заказа нужно учесть сезонную скидку. На каком уровне многоуровневой архитектуры должен размещаться код, который это делает?",
+      "answers": [
+        {
+          "text": "Business Logic Layer",
+          "correct": true
+        },
+        {
+          "text": "Presentation Layer",
+          "correct": false
+        },
+        {
+          "text": "Data Access Layer",
+          "correct": false
+        },
+        {
+          "text": "Скрипты базы данных",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Используется многоуровневая архитектура. Что относится к слою бизнес-логики?",
+      "answers": [
+        {
+          "text": "Сущностные классы",
+          "correct": true
+        },
+        {
+          "text": "Все перечисленное относится",
+          "correct": false
+        },
+        {
+          "text": "Ничего из перечисленного не относится",
+          "correct": false
+        },
+        {
+          "text": "Компоненты доступа к данным",
+          "correct": false
+        },
+        {
+          "text": "Пользовательские элементы управления",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Что характеризуется уникальным ID (при использовании Domain Driven Design)?",
+      "answers": [
+        {
+          "text": "Entity",
+          "correct": true
+        },
+        {
+          "text": "Value object",
+          "correct": false
+        },
+        {
+          "text": "Repository",
+          "correct": false
+        },
+        {
+          "text": "Factory",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Можно ли создать приложение WPF, не используя разметку XAML?",
+      "answers": [
+        {
+          "text": "Можно",
+          "correct": true
+        },
+        {
+          "text": "Нельзя",
+          "correct": false
+        },
+        {
+          "text": "Можно, но это будет консольное приложение",
+          "correct": false
+        },
+        {
+          "text": "Можно, но при этом нельзя использовать стандартные элементы управления",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Что такое BAML?",
+      "answers": [
+        {
+          "text": "Двоичное представление XAML, внедряемое в сборку в виде ресурса",
+          "correct": true
+        },
+        {
+          "text": "Скомпилированный код обработчиков событий элементов",
+          "correct": false
+        },
+        {
+          "text": "Код на C#, соответствующий XAML-разметке",
+          "correct": false
+        },
+        {
+          "text": "Код на IL, соответствующий XAML-разметке",
+          "correct": false
+        },
+        {
+          "text": "Особая часть XAML-разметки",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Можно ли в XAML-разметке сослаться на пространство имён .NET?",
+      "answers": [
+        {
+          "text": "Да, для этого используются пространства имён XML",
+          "correct": true
+        },
+        {
+          "text": "Нет",
+          "correct": false
+        },
+        {
+          "text": "Да, но только на пространства имён в текущей сборке",
+          "correct": false
+        },
+        {
+          "text": "Да, для этого всегда используются префикс х",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Как в разметке XAML сослаться на статическое свойство?",
+      "answers": [
+        {
+          "text": "Использовать расширение разметки StaticExtension",
+          "correct": true
+        },
+        {
+          "text": "Использовать расширение разметки {x:Static}",
+          "correct": true
+        },
+        {
+          "text": "Как обычно - указав \u0022имя класса.имя свойства\u0022",
+          "correct": false
+        },
+        {
+          "text": "Сослаться на статическое свойство нельзя",
+          "correct": false
+        },
+        {
+          "text": "Использовать расширение разметки {x:StaticResource}",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Расположите классы в порядке от предков к потомкам.",
+      "answers": [
+        {
+          "text": "DispatcherObject, Visual, FrameworkElement",
+          "correct": true
+        },
+        {
+          "text": "DependencyObject, UIElement, Control",
+          "correct": true
+        },
+        {
+          "text": "DispatcherObject, FrameworkElement, Control",
+          "correct": true
+        },
+        {
+          "text": "DependencyObject, Visual, UIElement",
+          "correct": true
+        },
+        {
+          "text": "DependencyObject, DispatcherObject, Visual",
+          "correct": false
+        },
+        {
+          "text": "Visual, DependencyObject, UIElement",
+          "correct": false
+        },
+        {
+          "text": "UIElement, Visual, Control",
+          "correct": false
+        },
+        {
+          "text": "FrameworkElement, UIElement, Control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Какой класс вводит поддержку свойств зависимостей (СЗ), а какой - поддержку маршрутизируемых событий (МС)?",
+      "answers": [
+        {
+          "text": "DependencyObject - СЗ; UIElement - МС",
+          "correct": true
+        },
+        {
+          "text": "UIElement - МС; DependencyObject - СЗ;",
+          "correct": true
+        },
+        {
+          "text": "DependencyObject - МС; UIElement - СЗ",
+          "correct": false
+        },
+        {
+          "text": "DependencyObject - СЗ и МС",
+          "correct": false
+        },
+        {
+          "text": "DependencyObject - СЗ; FrameworkElement - МС",
+          "correct": false
+        },
+        {
+          "text": "DispatcherObject - СЗ; UIElement - МС",
+          "correct": false
+        },
+        {
+          "text": "DispatcherObject - СЗ и МС",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Маршрутизируемое событие генерируется в каждом родительском элементе, а в конце - в элементе-источнике.",
+      "answers": [
+        {
+          "text": "Этот Bubble-стратегия",
+          "correct": false
+        },
+        {
+          "text": "Этот Tunnel-стратегия",
+          "correct": true
+        },
+        {
+          "text": "Этот Direct-стратегия",
+          "correct": false
+        },
+        {
+          "text": "Так работает событие кнопки Click",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "При помощи какого свойства КНОПКИ задается центрирование этой кнопки в контейнере?",
+      "answers": [
+        {
+          "text": "HorizontalAlignment",
+          "correct": true
+        },
+        {
+          "text": "Margin",
+          "correct": false
+        },
+        {
+          "text": "MinWidth",
+          "correct": false
+        },
+        {
+          "text": "Width",
+          "correct": false
+        },
+        {
+          "text": "HorizontalContentAlignment",
+          "correct": false
+        },
+        {
+          "text": "Padding",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Какой из контейнеров компоновки поддерживает координатное размещение?",
+      "answers": [
+        {
+          "text": "Canvas",
+          "correct": true
+        },
+        {
+          "text": "StackPanel",
+          "correct": false
+        },
+        {
+          "text": "WrapPanel",
+          "correct": false
+        },
+        {
+          "text": "DockPanel",
+          "correct": false
+        },
+        {
+          "text": "Grid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "У какого контейнера компоновки имеется коллекция RowDefinitions?",
+      "answers": [
+        {
+          "text": "Canvas",
+          "correct": false
+        },
+        {
+          "text": "StackPanel",
+          "correct": false
+        },
+        {
+          "text": "WrapPanel",
+          "correct": false
+        },
+        {
+          "text": "DockPanel",
+          "correct": false
+        },
+        {
+          "text": "Grid",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Что из перечисленного НЕ является элементом управления содержимым?",
+      "answers": [
+        {
+          "text": "Menu",
+          "correct": true
+        },
+        {
+          "text": "ListBox",
+          "correct": true
+        },
+        {
+          "text": "TextBox",
+          "correct": true
+        },
+        {
+          "text": "StackPanel",
+          "correct": true
+        },
+        {
+          "text": "ToolBar",
+          "correct": true
+        },
+        {
+          "text": "Button",
+          "correct": false
+        },
+        {
+          "text": "Label",
+          "correct": false
+        },
+        {
+          "text": "ToolTip",
+          "correct": false
+        },
+        {
+          "text": "Window",
+          "correct": false
+        },
+        {
+          "text": "Expander",
+          "correct": false
+        },
+        {
+          "text": "GroupBox",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Что из перечисленного НЕ является списковым элементом управления?",
+      "answers": [
+        {
+          "text": "GroupBox",
+          "correct": true
+        },
+        {
+          "text": "Expander",
+          "correct": true
+        },
+        {
+          "text": "TextBox",
+          "correct": true
+        },
+        {
+          "text": "StackPanel",
+          "correct": true
+        },
+        {
+          "text": "ToolBar",
+          "correct": false
+        },
+        {
+          "text": "Menu",
+          "correct": false
+        },
+        {
+          "text": "ListBox",
+          "correct": false
+        },
+        {
+          "text": "TreeView",
+          "correct": false
+        },
+        {
+          "text": "Selector",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Что можно указать в качестве содержимого у элементов управления содержимым?",
+      "answers": [
+        {
+          "text": "Любой объект",
+          "correct": true
+        },
+        {
+          "text": "Только объект, для класса которого имеется шаблон данных",
+          "correct": false
+        },
+        {
+          "text": "Только объект, унаследованный от Visual",
+          "correct": false
+        },
+        {
+          "text": "Только объект, унаследованный от FrameworkElement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Файл f.gif является двоичным ресурсом WPF. Какой URI ему соответствует?",
+      "answers": [
+        {
+          "text": "pack://application:,,,/f.gif",
+          "correct": true
+        },
+        {
+          "text": "pack://имя приложения:,,,/f.gif",
+          "correct": false
+        },
+        {
+          "text": "pack://application/f.gif",
+          "correct": false
+        },
+        {
+          "text": "images://application:,,,/f.gif",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Какое условие обязательно при выполнении Data Binding?",
+      "answers": [
+        {
+          "text": "Целевое свойство должно быть свойством зависимостей",
+          "correct": true
+        },
+        {
+          "text": "Целевой объект должен наследоваться от DependencyObject",
+          "correct": true
+        },
+        {
+          "text": "Свойство-источник и целевое свойство должно быть свойствами зависимостей",
+          "correct": false
+        },
+        {
+          "text": "Привязку можно выполнить только к элементу управления WPF",
+          "correct": false
+        },
+        {
+          "text": "Объект-источник должен наследоваться от DependencyObject",
+          "correct": false
+        },
+        {
+          "text": "Привязку можно выполнить только в разметке XAML",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Какая кисть позволяет использовать для заполнения текущий образ некоего элемента управления?",
+      "answers": [
+        {
+          "text": "SolidColorBrush",
+          "correct": false
+        },
+        {
+          "text": "LinearGradientBrush",
+          "correct": false
+        },
+        {
+          "text": "ImageBrush",
+          "correct": false
+        },
+        {
+          "text": "VisualBrash",
+          "correct": true
+        },
+        {
+          "text": "Ни одна стандартная кисть не позволяет этого",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
