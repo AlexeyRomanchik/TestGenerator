@@ -9,10 +9,5 @@ namespace Models
 
         [XmlAttribute("correct")]
         public bool Correct { get; set; }
-
-        public Answer(string text)
-        {
-            Text = text;
-        }
     }
 }

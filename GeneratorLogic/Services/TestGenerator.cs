@@ -49,9 +49,13 @@ namespace GeneratorLogic.Services
         public Test RandomlyGenerateTest(Test basicTest, int randomSeed)
         {
             var random = new Random(randomSeed);
-            var questions = RandomlyGenerateQuestions(
-                    basicTest.Questions, random);
-            var randomTest = new Test(questions); 
+
+            var randomTest = new Test
+            {
+                Questions = RandomlyGenerateQuestions(
+                    basicTest.Questions, random
+                    )
+            };
 
             return randomTest;
         }
